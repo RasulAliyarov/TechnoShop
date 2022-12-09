@@ -1,0 +1,108 @@
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-weight: 700;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#addBtn {
+    background-color: blueviolet;
+    margin-right: 15px;
+    color: white;
+    border: none;
+}
+
+#addCartBtn {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.card {
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgb(184, 184, 184);
+    transition: .4s;
+}
+
+.card__img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.cart__card {
+    height: fit-content;
+    width: 100%;
+    border-bottom: 2px solid #ff7979;
+    padding-bottom: 5px;
+}
+
+.cart__card img {
+    width: 100px;
+    margin: 0;
+}
+
+.logoShop {
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-color {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(168, 168, 168);
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+}
+
+.active {
+    color: blueviolet !important;
+}
+
+#navbarNav li a {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#navbarNav li a:hover {
+    color: blueviolet !important;
+
+}
+
+.cartBtn {
+    background-color: blueviolet;
+    color: white;
+    transition: .4s;
+}
+.cartBtn:hover{
+    opacity: .7;
+    transition: .4s;
+    background-color: blueviolet;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
+}
